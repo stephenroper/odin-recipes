@@ -1,52 +1,48 @@
-# Prerequisites
-*.d
+# Visual Studio Local Folders #
+[Bb]in/
+[Oo]bj/
+_ReSharper.*/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Visual Studio Local Files #
+*.bak
+*.suo
+*.user
+*.[Cc]ache
+*.pui
+*.prj
+*.swp
+*.vspscc
+*.vssscc
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# OS Generated Files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+tmp/*
+~$*
+   
+# Salesforce / SFDX / CCI #
+.cci
+.sfdx
+/src.orig
+/src
 
-# Precompiled Headers
-*.gch
-*.pch
+# Robot Framework results
+robot/npsp-template/results/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Editors #
+*.sublime-project
+*.sublime-workspace
+.vscode
+.idea
+.project
+.settings
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Negated #
+!.gitignore
+!.gitkeep
+!tmp/.gitignore
